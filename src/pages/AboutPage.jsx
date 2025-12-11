@@ -15,7 +15,7 @@ const AboutPage = ()=>{
         const fetchAboutUs = async()=>{
 
             try{
-                const response = await fetch("http://localhost:5000/api/aboutus");
+                const response = await fetch("http://planncohomedecoration-server.onrender.com/api/aboutus");
 
                 if(!response.ok){
                     throw new Error("Response was not ok.");
